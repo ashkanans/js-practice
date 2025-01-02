@@ -10,6 +10,11 @@
  */
 
 // Write your solution here
+let stringVar = "hello Ashkan";
+let numberVar = 12;
+let booleanVar = true;
+let nullVar = null;
+let undefinedVar= undefined;
 
 
 export {stringVar, numberVar, booleanVar, nullVar, undefinedVar};
