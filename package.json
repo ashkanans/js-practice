@@ -1,0 +1,16 @@
+{
+  "name": "javascript-problems",
+  "version": "1.0.0",
+  "description": "A project for solving JavaScript problems with modularized structure and testing.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node testRunner.js"
+  },
+  "author": "Ashkan",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "chai": "^4.3.7"
+  }
+}
