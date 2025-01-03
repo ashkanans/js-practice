@@ -10,7 +10,7 @@ function testProblem1Variables() {
 }
 
 function testProblem2SwapValues() {
-    const [b, a] = swapValues(3, 5);
+    const [a, b] = swapValues(3, 5);
     console.assert(a === 5 && b === 3, "Swap values test failed");
 }
 
