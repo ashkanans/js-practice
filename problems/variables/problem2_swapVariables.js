@@ -10,10 +10,11 @@
  * swapValues(3, 5) should return [5, 3].
  */
 
-
 function swapValues(a, b) {
-    // Write your solution here
+  let temp = a;
+  a = b;
+  b = temp;
+  return [a, b]
 }
-asd
-// Export your solution
-export {swapValues};
+
+export { swapValues };
