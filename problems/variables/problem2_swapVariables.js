@@ -10,11 +10,11 @@
  * swapValues(3, 5) should return [5, 3].
  */
 
-function swapValues(a, b) {
+function swapValues(a, c) {
   let temp = a;
   a = b;
   b = temp;
-  return [a, b]
+  return [a, c]
 }
 
 export { swapValues };

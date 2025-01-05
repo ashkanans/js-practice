@@ -11,8 +11,10 @@
 
 // Write your solution here
 function rectangleArea(length, width) {
-
-}
+    let areaRectangle = length * width;
+    return areaRectangle;
+ }
+rectangleArea(5,10)
 
 // Export your solution
 module.exports = {rectangleArea};
